@@ -82,7 +82,7 @@ function loadWidget(config) {
 		document.querySelector("#waifu-tool .fa-times").addEventListener("click", () => {
 			localStorage.setItem("waifu-display", Date.now());
 			showMessage("愿你有一天能与重要的人重逢。", 2000, 11);
-			document.getElementById("waifu").style.bottom = "-500px";
+			document.getElementById("waifu").style.bottom = "-300px";
 			setTimeout(() => {
 				document.getElementById("waifu").style.display = "none";
 				document.getElementById("waifu-toggle").classList.add("waifu-toggle-active");
